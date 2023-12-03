@@ -1,1 +1,49 @@
-
+{
+  "users": [
+    {
+      "login": "user1",
+      "password": "password123",
+      "events": [
+        {
+          "event_name": "Event1",
+          "event_id": "12345"
+        },
+        {
+          "event_name": "Event2",
+          "event_id": "67890"
+        }
+      ]
+    },
+    {
+      "login": "user2",
+      "password": "securepass",
+      "events": [
+        {
+          "event_name": "Event3",
+          "event_id": "54321"
+        }
+      ]
+    }
+  ],
+  "tickets": [
+    {
+      "event_id": "12345",
+      "ticket_types": {
+        "vip": ["code1", "code2"]
+      }
+    },
+    {
+      "event_id": "67890",
+      "ticket_types": {
+        "general": ["code3", "code4"],
+        "vip": ["code5"]
+      }
+    },
+    {
+      "event_id": "54321",
+      "ticket_types": {
+        "regular": ["code6", "code7"]
+      }
+    }
+  ]
+}
