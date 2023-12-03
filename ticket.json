@@ -28,33 +28,22 @@
   "tickets": [
     {
       "event_id": "12345",
-      "ticket_types": {
-        "vip": [
-          {"code": "code1", "scanned_times": 0},
-          {"code": "code2", "scanned_times": 0}
-        ]
-      }
+      "ticket_types": [
+        {"type": "vip", "codes": ["code1", "code2"], "scanned_times": 0}
+      ]
     },
     {
       "event_id": "67890",
-      "ticket_types": {
-        "general": [
-          {"code": "code3", "scanned_times": 0},
-          {"code": "code4", "scanned_times": 0}
-        ],
-        "vip": [
-          {"code": "code5", "scanned_times": 0}
-        ]
-      }
+      "ticket_types": [
+        {"type": "general", "codes": ["code3", "code4"], "scanned_times": 0},
+        {"type": "vip", "codes": ["code5"], "scanned_times": 0}
+      ]
     },
     {
       "event_id": "54321",
-      "ticket_types": {
-        "regular": [
-          {"code": "code6", "scanned_times": 0},
-          {"code": "code7", "scanned_times": 0}
-        ]
-      }
+      "ticket_types": [
+        {"type": "regular", "codes": ["code6", "code7"], "scanned_times": 0}
+      ]
     }
   ]
 }
