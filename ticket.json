@@ -1,12 +1,12 @@
 {
   "users": [
     {
-      "login": "user1",
-      "password": "password123",
+      "login": "BenjaPro",
+      "password": "2023xx",
       "events": [
         {
-          "event_name": "Event1",
-          "event_id": "12345"
+          "event_name": "Benja Pro",
+          "event_id": "20231"
         },
         {
           "event_name": "Event2",
